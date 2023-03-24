@@ -1,0 +1,53 @@
+MiniLib 1.8.3
+=======
+by Docno - 2023
+Windows 10 x86&x64
+
+Assistant pour la création de librairies utilisateur en PureBasic.
+Les libaririe utilisateurs sont dans le dossier userlibraries de PureBasic.
+Ce petit utilitaire n'est pas entièrement automatisé.
+A chaque étape le libellé du bouton change et il est possible de corriger si besoin dans l'éditeur.
+
+Renommer le fichier minilib_us._lang en minilib_us.lang pour avoir la version anglaise.
+Corriger le fichier .lang pour d'autres langues.
+
+Pour la description des fonctions, mettre un commentaire dans le source PB.
+Mettre en commentaire InitFunction pour une fonction d'initialisation.
+Mettre en commentaire EndFunction pour une fonction de cloture.
+
+La génération de residents est automatique.
+Il faut copier le fichier .res dans le dossier residents de purebasic.
+
+Relancer le compilateur pour prendre en compte les librairies ou les résidents.
+
+L'option : Unicode
+ - décochée : permet de compiler des libs avec d'anciennes version de purebasic.
+
+L'option Thread : permet de compiler des libs qui nécessitent l'option THREAD du compilateur.
+L'option ThreadSafe : permet de compiler des libs fonctionnant avec ou sans THREAD.
+
+Le menu AutoGEN : permet de générer une lib en 1 clic.
+Le menu Re-Compil : permet de recompiler un ASM en EXE.
+
+=================================
+Exemple de source de librairie :
+
+ProcedureDLL init() ;InitFunction
+ MessageRequester("init","init") 
+EndProcedure
+
+ProcedureDLL free() ;EndFunction
+ MessageRequester("end","end") 
+EndProcedure
+
+ProcedureDLL.l add(a.l,b.l) ; addition a+b
+  ProcedureReturn a+b
+EndProcedure
+
+ProcedureDLL.l sub(a.l,b.l)
+  ProcedureReturn a-b
+EndProcedure
+
+ProcedureDLL.l mul(a.l,b.l)
+  ProcedureReturn a*b
+EndProcedure

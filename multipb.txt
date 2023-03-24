@@ -1,0 +1,58 @@
+MultiPB 1.6.0
+2023
+
+by Docno
+
+Pour Windows x86 & x64. 
+Testé sur Windows 10 pro 64/32.
+Compilé avec Purebasic 6.01 64/32.
+
+Permet d'afficher les différentes versions installées de purebasic et spiderbasic.
+Permet de lancer la version souhaitée.
+Permet de configurer les compilateurs référencés dans l'IDE.
+Permet de désinstaller une ancienne version.
+
+Utilisation :
+Séléctionner le disque ou purebasic/spiderbasic est(sont) installé(s) et cliquer sur Update.
+Tout le disque est scanné pour retrouver les différentes installations.
+Le bouton devient Cancel pendant la recherche et permet d'arrêter.
+Double cliquer dans la liste pour lancer la version désirée.
+
+Le coche indique les versions référencées dans les options de compilation de l'ide.
+Pour modifier bouton droit dans la liste pour afficher le menu contextuel "Update IDE compilers list".
+Aucune version de PB ne doit être en cours d'execution.
+Le fichier original Purebasic.prefs est sauvegardé sous forme Purebasic.prefs.bak
+
+Pour désinstaller une ancienne version, menu contextuel "Unsinstall PB version".
+
+Manifest Updater : permet de modifier le manifest d'un exe (dpi aware)
+
+File to DATA : permet de transformer un fichier en DATA incorporables dans une source pure basic.
+
+PETOOLS : convertisseur DLL -> LIB, permet de créer un raccourci dans le menu démarrer de Windows et PE EXE infos.
+
+Le programme enregistre un fichier prefs avec sa position, taille, le disque, la ligne de commande et la liste.
+N'écrit rien dans le registre.
+Fonctionne sur clé USB.
+
+=================================
+
+Utility for launch different version of PureBasic or SpiderBasic.
+Uninstall old versions.
+
+Selfie : screenshot tool.
+Manifest Updater : change exe manifest.
+File to Data : transform file to Data that can be included in PB source.
+PETOOLS : make lib from DLL, shortcut to windows start, pe exe infos.
+
+Use
+===
+
+Select the drive where PB/SB are installed.
+Click button Update.
+
+The list of PB/SB available is listed.
+Checkmark show referenced version in PB ide compilation options.
+Call contextual menu (right button) for change ide compilers list 'Update IDE compilers List'.
+Close running PB ide for successfull change.
+Original file 'Purebasic.prefs' is saved as 'Purebasic.prefs.bak'

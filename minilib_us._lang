@@ -1,0 +1,42 @@
+EN
+PureBasic Compiler
+Editor
+File Selector
+New
+Save
+Generate ASM File
+Generate OBJ File
+Show Libs Dir 
+Quit
+Help
+Modified
+Choose PB source file to load
+Choose PureBasic compiler dir
+Lib creation aborted (missing file DESC or OBJ)
+Pbcompiler.exe is online... Restart PB compiler for test.
+Successfull creation library.
+Library creation failure...
+ saved
+Return code : 
+Compilation ended... Complete DESC file...
+No OBJ file created...
+Not a PureBasic source file (.pb ou .pbi)
+Assistant for generation of functions libraries in PureBasic
+1/ Select library pb file (drag&drop possible).
+2/ Verify purebasic compiler path.
+3/ Click button PB>>ASM then ASM>>OBJ then LibraryMaker.
+4/ Verify/Complete DESC file if needed.
+5/ Restart PB compiler if needed for test.
+Init function : comment proc with InitFunction
+End function : comment proc with EndFunction
+Delete existing DESC file ?
+No ASM file created
+Compile Resident (.res)
+PureBasic (*.pb,*.pbi)|*.pb;*.pbi|Assembler (*.asm)|*.asm|All files (*.*)|*.*"
+No RES File created...
+ created
+Copy .res file in PB RESIDENT dir
+Unable to create LIB : no ProcedureDLL...
+No LIB File created...
+No EXE File created...
+§
