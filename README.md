@@ -1,6 +1,6 @@
 # dev
-Developpment tools - Purebasic
+Development tools - Purebasic
 
-Outils de développement, codés en Purebasic pour la plupart.
+Outils de dévelopement, codés en Purebasic pour la plupart.
 
 MultiPB : outil multifonction lanceur de multiples version de PurebBasic.
